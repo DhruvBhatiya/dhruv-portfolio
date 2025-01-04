@@ -10,6 +10,10 @@ import movieApp from '../assets/img/project/movieApp.png'
 import addCart from '../assets/img/project/addCart.png'
 import youtubeClone from '../assets/img/project/youtubeClone.png'
 
+// Projects 
+
+
+
 export {
-    headerImg, projImg1, projImg2, projImg3, colorSharp2, briotechno, newsMonkey, pokemonApp, movieApp, addCart, youtubeClone
+    headerImg, projImg1, projImg2, projImg3, colorSharp2, briotechno, newsMonkey, pokemonApp, movieApp, addCart, youtubeClone,
 }

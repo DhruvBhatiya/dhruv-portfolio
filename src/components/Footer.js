@@ -13,10 +13,10 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailchimpForm />
+          {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
             {/* <img src={logo} alt="Logo" /> */}
-            <h1 style={{ color: "#fff" }}>Dhruv Bhatiya</h1>
+            <h1 style={{ color: "#fff" }}>DHRUV BHATIYA</h1>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
