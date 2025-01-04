@@ -34,9 +34,9 @@ const  App =()=> {
         <Suspense fallback={<div>Loadding...</div>}>
           {/* <NavBar /> */}
           <Routes>
-            <Route path="/reactjs" element={<ReactJs />} />
+            {/* <Route path="/reactjs" element={<ReactJs />} />
 
-            <Route path="useRef" element={<UseRef />} />
+            <Route path="useRef" element={<UseRef />} /> */}
           
             <Route index path="/" element={<Home />} />
           </Routes>
