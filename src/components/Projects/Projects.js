@@ -48,7 +48,9 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div 
+                // className={isVisible ? "animate__animated animate__fadeIn" : ""}
+                >
                   <h2>Projects</h2>
                   <p>Showcasing my skills and expertise, these projects highlight real-world applications of my work. Each includes a brief description, live demos, and code repositories, demonstrating my ability to solve complex problems, adapt to various technologies, and manage projects efficiently.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -63,7 +65,9 @@ export const Projects = () => {
                         <Nav.Link eventKey="third">HTML</Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                    <Tab.Content id="slideInUp" 
+                    // className={isVisible ? "animate__animated animate__slideInUp" : ""}
+                    >
                       <Tab.Pane eventKey="first">
                         <Row>
                           {

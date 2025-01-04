@@ -4,6 +4,7 @@ import ghargharbazaar from '../../assets/img/project/ghargharbazaar.jpg'
 import arabinfradesign from '../../assets/img/project/arabinfradesign.jpg'
 import shekharStone from '../../assets/img/project/shekhar-stone.png'
 import dnd from '../../assets/img/project/dnd.png'
+import supremelab from '../../assets/img/project/supremelab.png'
 
 export const projectData = [
 
@@ -14,6 +15,12 @@ export const projectData = [
                 description: "This project highlights my expertise in developing scalable, user-friendly e-commerce platforms, showcasing my ability to deliver quality solutions tailored to client needs.",
                 imgUrl: ghargharbazaar,
                 link: 'https://www.ghargharbazaar.com/'
+            },
+            {
+                title: "Supreme labs & Diagnostic",
+                description: "How can we make quality healthcare accessible to each and every person across our diverse country.",
+                imgUrl: supremelab,
+                link: 'https://supremelabs-next.vercel.app/'
             },
             {
                 title: "Arab Infradesign",
@@ -33,7 +40,7 @@ export const projectData = [
                 imgUrl: dnd,
                 link: 'https://www.dndsolutions.in/'
             },
-            
+
         ],
         clone: [
             {
@@ -69,7 +76,7 @@ export const projectData = [
                 imgUrl: briotechno,
                 link: 'https://briotechno.com/'
             },
-            
+
         ],
 
     },
