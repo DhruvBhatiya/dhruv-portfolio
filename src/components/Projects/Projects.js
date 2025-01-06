@@ -4,6 +4,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { addCart, briotechno, colorSharp2, movieApp, newsMonkey, pokemonApp, projImg1, projImg2, projImg3, youtubeClone } from "../../comman/images";
 import { projectData } from "./projectData";
+import { Box } from "@mui/material";
 
 export const Projects = () => {
 
@@ -52,7 +53,7 @@ export const Projects = () => {
                 // className={isVisible ? "animate__animated animate__fadeIn" : ""}
                 >
                   <h2>Projects</h2>
-                  <p>Showcasing my skills and expertise, these projects highlight real-world applications of my work. Each includes a brief description, live demos, and code repositories, demonstrating my ability to solve complex problems, adapt to various technologies, and manage projects efficiently.</p>
+                  <p className="subtitle">Showcasing my skills and expertise, these projects highlight real-world applications of my work. Each includes a brief description, live demos, and code repositories, demonstrating my ability to solve complex problems, adapt to various technologies, and manage projects efficiently.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
@@ -73,17 +74,17 @@ export const Projects = () => {
                           {
                             projectData.map((db, index) => {
                               return (
-                                <>
+                                <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                                   {
                                     db.project.map((pj, index) => (
 
-                                      < ProjectCard
+                                      <ProjectCard
                                         key={index}
                                         {...pj}
                                       />
                                     ))
                                   }
-                                </>
+                                </Box>
                               )
                             })
                           }
@@ -94,7 +95,7 @@ export const Projects = () => {
                           {
                             projectData.map((db, index) => {
                               return (
-                                <>
+                                <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                                   {
                                     db.clone.map((cl, index) => (
                                       <ProjectCard
@@ -103,7 +104,7 @@ export const Projects = () => {
                                       />
                                     ))
                                   }
-                                </>
+                                </Box>
                               )
                             })
                           }
@@ -114,7 +115,7 @@ export const Projects = () => {
                           {
                             projectData.map((db, index) => {
                               return (
-                                <>
+                                <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                                   {
                                     db.html.map((cl, index) => (
                                       <ProjectCard
@@ -123,7 +124,7 @@ export const Projects = () => {
                                       />
                                     ))
                                   }
-                                </>
+                                </Box>
                               )
                             })
                           }

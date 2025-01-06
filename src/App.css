@@ -353,7 +353,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,9,121,1) 65%, rgba
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+.project p.subtitle {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
