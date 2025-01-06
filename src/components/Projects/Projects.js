@@ -2,45 +2,12 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "../ProjectCard";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { addCart, briotechno, colorSharp2, movieApp, newsMonkey, pokemonApp, projImg1, projImg2, projImg3, youtubeClone } from "../../comman/images";
+import { colorSharp2,  } from "../../comman/images";
 import { projectData } from "./projectData";
 import { Box } from "@mui/material";
 
 export const Projects = () => {
 
-  // const projects = [
-  //   {
-  //     title: "briotechno.com",
-  //     description: "Design & Development",
-  //     imgUrl: briotechno,
-  //     link: 'https://briotechno.com/'
-  //   },
-  //   {
-  //     title: "News Monkey",
-  //     description: "Design & Development",
-  //     imgUrl: newsMonkey,
-  //   },
-  //   {
-  //     title: "Pokemon App",
-  //     description: "React, Redux toolkit, Pokemon api",
-  //     imgUrl: pokemonApp,
-  //   },
-  //   {
-  //     title: "Movie App",
-  //     description: "React, Redux toolkit",
-  //     imgUrl: movieApp,
-  //   },
-  //   {
-  //     title: "Add Cart",
-  //     description: "React, Redux toolkit",
-  //     imgUrl: addCart,
-  //   },
-  //   {
-  //     title: "Youtube Clone",
-  //     description: "React, Redux toolkit",
-  //     imgUrl: youtubeClone,
-  //   },
-  // ];
 
   return (
     <section className="project" id="projects">
@@ -49,7 +16,7 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div 
+                <div
                 // className={isVisible ? "animate__animated animate__fadeIn" : ""}
                 >
                   <h2>Projects</h2>
@@ -60,13 +27,13 @@ export const Projects = () => {
                         <Nav.Link eventKey="first">Projects </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">React - Clone</Nav.Link>
+                        <Nav.Link eventKey="second">Clone</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">HTML</Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <Tab.Content id="slideInUp" 
+                    <Tab.Content id="slideInUp"
                     // className={isVisible ? "animate__animated animate__slideInUp" : ""}
                     >
                       <Tab.Pane eventKey="first">
@@ -75,9 +42,8 @@ export const Projects = () => {
                             projectData.map((db, index) => {
                               return (
                                 <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-                                  {
+                                  {db.project.length == 0 ? <Box className="text-center">No Project Found</Box> :
                                     db.project.map((pj, index) => (
-
                                       <ProjectCard
                                         key={index}
                                         {...pj}
@@ -96,7 +62,7 @@ export const Projects = () => {
                             projectData.map((db, index) => {
                               return (
                                 <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-                                  {
+                                  {db.clone.length == 0 ? <Box className="text-center">No Project Found</Box> :
                                     db.clone.map((cl, index) => (
                                       <ProjectCard
                                         key={index}
@@ -116,7 +82,7 @@ export const Projects = () => {
                             projectData.map((db, index) => {
                               return (
                                 <Box className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4">
-                                  {
+                                  {db.html.length == 0 ? <Box className="text-center">No Project Found</Box> :
                                     db.html.map((cl, index) => (
                                       <ProjectCard
                                         key={index}
