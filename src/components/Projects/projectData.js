@@ -5,6 +5,7 @@ import arabinfradesign from '../../assets/img/project/arabinfradesign.png'
 import shekharStone from '../../assets/img/project/shekhar-stone.png'
 import dnd from '../../assets/img/project/dnd.png'
 import supremelab from '../../assets/img/project/supremelab.png'
+import jobhero from '../../assets/img/project/jobhero.png'
 
 export const projectData = [
     {
@@ -44,6 +45,13 @@ export const projectData = [
                 imgUrl: dnd,
                 link: 'https://www.dndsolutions.in/',
                 tech: ['react', 'tailwind']
+            },
+            {
+                title: "Job Hero - Clone",
+                description: "JobHero’s other main superpower is to help you in your job hunt with our extensive library of resume examples that you can search by job title.",
+                imgUrl: jobhero,
+                link: 'https://job-hero-clone.vercel.app/',
+                tech: ['react', 'scss']
             },
             // {
             //     title: "briotechno.com",
