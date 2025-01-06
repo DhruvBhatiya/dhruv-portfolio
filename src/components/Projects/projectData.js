@@ -7,7 +7,6 @@ import dnd from '../../assets/img/project/dnd.png'
 import supremelab from '../../assets/img/project/supremelab.png'
 
 export const projectData = [
-
     {
         project: [
             {
