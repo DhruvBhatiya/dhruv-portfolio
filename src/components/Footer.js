@@ -32,12 +32,12 @@ export const Footer = () => {
               >
                 <img src={navIcon2} alt="" />
               </a> */}
-              <a
+              {/* <a
                 href="https://www.instagram.com/dhruv_web.developer/"
                 target="_blank"
               >
                 <img src={navIcon3} alt="" />
-              </a>
+              </a> */}
             </div>
             <p>Copyright {year}. All Rights Reserved</p>
           </Col>

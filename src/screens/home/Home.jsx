@@ -4,7 +4,7 @@ import { Contact } from "../../components/Contact";
 import { Footer } from "../../components/Footer";
 import { NavBar } from "../../components/NavBar";
 import { Projects } from "../../components/Projects/Projects";
-import { Skills } from "../../components/Skills";
+import { Skills } from "../../components/skills/Skills";
 
 
 const Home = () => {

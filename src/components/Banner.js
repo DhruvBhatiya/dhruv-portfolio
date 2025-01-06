@@ -72,13 +72,13 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hi! I'm Dhruv`}{" "}
-                    <span
+                    {/* <span
                       className="txt-rotate"
                       dataPeriod="1000"
                       data-rotate='[ "Frontend Developer", "React Js Developer", "Web Developer", "Web Designer",  ]'
                     >
                       <span className="wrap">{text}</span>
-                    </span>
+                    </span> */}
                   </h1>
                   <p>
                     I am a React.js developer with over 2 years of hands-on experience in React.js and a total of 4.5 years of experience in designing and building responsive web applications. Proficient in CSS, Tailwind CSS, and JavaScript frameworks, I have extensive knowledge of UX principles and user psychology. Notably, I increased the conversion rate of an existing website by 80% through optimized code and improved design.

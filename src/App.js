@@ -1,16 +1,9 @@
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-import logo from "./logo.svg";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
 import { useEffect } from "react";
+import "./App.css";
 
 // import Home from "./screens/home/Home";
 const Home = lazy(() => import("./screens/home/Home"));

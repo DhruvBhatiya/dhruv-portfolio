@@ -252,7 +252,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,9,121,1) 65%, rgba
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -475,7 +475,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,9,121,1) 65%, rgba
   /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,9,121,1) 65%, rgba(3,29,124,1) 100%);
-  padding: 60px 0 200px 0;
+  padding: 80px 0 80px 0;
 }
 .contact img {
   width: 92%;
