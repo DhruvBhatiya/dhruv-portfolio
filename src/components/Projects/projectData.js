@@ -6,6 +6,7 @@ import shekharStone from '../../assets/img/project/shekhar-stone.png'
 import dnd from '../../assets/img/project/dnd.png'
 import supremelab from '../../assets/img/project/supremelab.png'
 import jobhero from '../../assets/img/project/jobhero.png'
+import collax from '../../assets/img/project/collax.PNG'
 
 export const projectData = [
     {
@@ -16,6 +17,13 @@ export const projectData = [
                 imgUrl: supremelab,
                 link: 'https://supremelabs-next.vercel.app/',
                 tech: ['nextjs', 'tailwind']
+            },
+            {
+                title: "Supreme labs & Diagnostic",
+                description: "How can we make quality healthcare accessible to each and every person across our diverse country.",
+                imgUrl: collax,
+                link: 'https://collax-react.vercel.app/',
+                tech: ['react', 'tailwind']
             },
             {
                 title: "Ghar Ghar Bazaar",
