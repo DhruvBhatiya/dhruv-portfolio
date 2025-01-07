@@ -41,7 +41,7 @@ export const ProjectCard = ({ title, description, imgUrl, link, tech }) => {
           '&:hover': {
             boxShadow: '0px 15px 30px rgba(0, 0, 0, 0.6)',
           },
-          cursor: 'pointer',
+          cursor: 'default',
           position: 'relative', // To position the icon inside the card
         }}
       >

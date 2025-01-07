@@ -32,6 +32,7 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  const projectName = '<DhruvBhatiya />'
   return (
     <>
     {/* <Router> */}
@@ -39,7 +40,7 @@ export const NavBar = () => {
         <Container>
           <Navbar.Brand className="flex gap-2 items-center" href="/">
             {/* <img className="w-[50px]" src={logo} alt="Logo" /> */}
-            <h1 className="text-white mb-0">DHRUV BHATIYA</h1>
+            <h1 className="text-white mb-0">{projectName}</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
