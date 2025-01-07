@@ -19,8 +19,8 @@ export const projectData = [
                 tech: ['nextjs', 'tailwind']
             },
             {
-                title: "Supreme labs & Diagnostic",
-                description: "How can we make quality healthcare accessible to each and every person across our diverse country.",
+                title: "Collax",
+                description: "At collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing.",
                 imgUrl: collax,
                 link: 'https://collax-react.vercel.app/',
                 tech: ['react', 'tailwind']
