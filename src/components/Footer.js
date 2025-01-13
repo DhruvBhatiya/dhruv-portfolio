@@ -9,6 +9,9 @@ export const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
   // console.log("year", year)
+  const projectName = '<DhruvBhatiya />'
+
+
   return (
     <footer className="footer">
       <Container>
@@ -16,7 +19,7 @@ export const Footer = () => {
           {/* <MailchimpForm /> */}
           <Col size={12} sm={6}>
             {/* <img src={logo} alt="Logo" /> */}
-            <h1 style={{ color: "#fff" }}>DHRUV BHATIYA</h1>
+            <h1 style={{ color: "#fff" }}>{projectName}</h1>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
