@@ -36,7 +36,7 @@ export const projectData = [
                 title: "Shekhar Stone Company",
                 description: "A premier platform showcasing exquisite stone designs and craftsmanship, Shekhar Stone is your destination for high-quality stone products that combine durability with elegance. The platform highlights a wide range of natural and engineered stones suitable for various architectural and interior design needs.",
                 imgUrl: shekharStone,
-                link: 'https://shekhar-stone.vercel.app/',
+                link: 'https://shekharkotastone.com/',
                 tech: ['react', 'tailwind']
             },
             {
